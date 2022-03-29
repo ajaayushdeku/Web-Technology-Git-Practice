@@ -1,1 +1,1 @@
-Domain : aayushsth.com.np
+Domain : https://www.aayushsth.com.np/
