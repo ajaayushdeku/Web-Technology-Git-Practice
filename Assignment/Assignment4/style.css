@@ -23,7 +23,6 @@ table {
   font-size: 1.4rem;
   text-align: center;
   width: 80%;
-
   margin: 0 3rem 4rem 5rem;
   border-collapse: collapse;
   border: 2px solid black;
@@ -65,7 +64,6 @@ td
 
 .bold {
   border: 2px solid black;
-  height: 0px;
 }
 
 .small {
