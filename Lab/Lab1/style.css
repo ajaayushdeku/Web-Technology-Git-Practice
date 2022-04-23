@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
   }
+  
   html {
     font-size: 60%;
     background-image: linear-gradient(#A9A9A9,#808080,#696969,#000000);
