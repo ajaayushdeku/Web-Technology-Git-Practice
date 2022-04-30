@@ -1,0 +1,486 @@
+.btn
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #26BE96 ;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #26BE96;
+    color: #FFFFFF;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn:hover
+{
+    border-bottom: inset #229B86;
+}
+.btn:active
+{
+    background-color: #67D2B6;
+    border-bottom: inset #67D2B6;
+    color: #FFFFFF;
+}
+.btn:disabled
+{
+    background-color: #A9E5D5;
+    border-bottom: inset #A9E5D5;
+    color: #FFFFFF;
+}
+
+
+.btn-hover
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #229B86;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #26BE96;
+    color: #FFFFFF;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-active
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #67D2B6;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #67D2B6;
+    color: #FFFFFF;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-disabled
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #A9E5D5;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #A9E5D5;
+    color: #FFFFFF;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+
+
+
+
+.btn-primary
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #26BE96;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #26BE96;
+    color: #D2F1E9;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+
+}
+.btn-primary:hover
+{
+    border-bottom: inset #229B86;
+
+}
+.btn-primary:active
+{
+    background-color: #67D2B6;
+    border-bottom: inset #67D2B6;
+    color: #FAFEFD;
+}
+.btn-primary:disabled
+{
+    background-color: #A9E5D5;
+    border-bottom: inset #A9E5D5;
+    color: #FCFEFE;
+}
+
+.btn-primary-hover
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #229B86;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #26BE96;
+    color: #D2F1E9;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-primary-active
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #67D2B6;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #67D2B6;
+    color: #FAFEFD;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-primary-disabled
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-bottom: inset #A9E5D5;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #A9E5D5;
+    color: #FCFEFE;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+
+}
+
+
+
+
+.btn-secondary
+{
+    text-decoration: none;
+    border-style: solid 1px #E5EBED;
+    border-bottom: inset #E5EBED;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #E5EBED;
+    color: #7698A2;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    
+}
+.btn-secondary:hover
+{
+    border-bottom: inset #9FB7BE;
+}
+.btn-secondary:active
+{
+    background-color: #EDF1F3;
+    border-bottom: inset #EDF1F3;
+    color: #9CB5BC;
+}
+.btn-secondary:disabled
+{
+    background-color: #F5F7F8;
+    border-bottom: inset #F5F7F8;
+    color: #C3D2D6;
+}
+
+
+.btn-secondary-hover
+{
+    text-decoration: none;
+    border-style: solid 1px #E5EBED;
+    border-bottom: inset #9FB7BE;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #E5EBED;
+    color: #7698A2;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-secondary-active
+{
+    text-decoration: none;
+    border-style: solid 1px #E5EBED;
+    border-bottom: inset #EDF1F3;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #EDF1F3;
+    color: #9CB5BC;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-secondary-disabled
+{
+    text-decoration: none;
+    border-style: dotted 1px #0a0c0c;
+    border-bottom: inset #F5F7F8;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #F5F7F8;
+    color: #C3D2D6;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+
+.btn-destructive
+{
+    text-decoration: none;
+    border-style: solid 1px #EE8363;
+    border-bottom: inset #EE8363;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #EE8363;
+    color: #FDEEEB;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive:hover
+{
+    border-bottom: inset #BE684F;
+}
+.btn-destructive:active
+{
+    background-color: #F4A892;
+    border-bottom: inset #F4A892;
+    color: #FEF6F3;
+}
+.btn-destructive:disabled
+{
+    background-color: #F9CEC1;
+    border-bottom: inset #F9CEC1;
+    color: #F9CEC1;
+}
+
+
+.btn-destructive-hover
+{
+    text-decoration: none;
+    border-style: solid 1px #EE8363;
+    border-bottom: inset #BE684F;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #EE8363;
+    color: #FDEEEB;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive-active
+{
+    text-decoration: none;
+    border-style: solid 1px #EE8363;
+    border-bottom: inset #F4A892;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #F4A892;
+    color: #FEF6F3;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive-disabled
+{
+    text-decoration: none;
+    border-style: solid 1px #EE8363;
+    border-bottom: inset #F9CEC1;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #F9CEC1;
+    color: #FFFEFE;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+div
+{
+  margin: 45px;
+}
+
+
+
+.btn1
+{
+    text-decoration: none;
+    border-style:  solid 1px #26BE96;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+.btn-primary1
+{
+    text-decoration: none;
+    border:  solid 2px #1DBB92;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #15B98F;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-primary1:hover
+{
+    padding: 11px 36px;
+    border:  solid 3px #00B284;
+}
+.btn-primary1:active
+{
+    border:  solid 2px #67D2B6;
+    background-color: #67D2B6;
+    color: #EDFAF6;
+}
+.btn-primary1:disabled
+{
+    border:  solid 2px #A5E4D4;
+    color: #A4E4D3;
+}
+
+
+.btn-primary1-hover
+{
+    text-decoration: none;
+    border:  solid 3px #00B284;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 11px 36px;
+    background-color: #FFFFFF;
+    color: #15B98F;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-primary1-active
+{
+    text-decoration: none;
+    border:  solid 2px #67D2B6;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #67D2B6;
+    color: #EDFAF6;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-primary1-disabled
+{
+    text-decoration: none;
+    border:  solid 2px #A5E4D4;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #A4E4D3;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+
+
+.btn-secondary1
+{
+    text-decoration: none;
+    border: solid 2px #C5D3D8;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #7596A1;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    
+}
+.btn-secondary1:hover
+{
+    padding: 11px 36px;
+    border:  solid 3px #7F9EA8;
+}
+.btn-secondary1:active
+{
+    border:  solid 2px #E3EAEC;
+    background-color: #EDF1F3;
+    color: #9FB6BE;
+}
+.btn-secondary1:disabled
+{
+    border:  solid 2px #F2F5F6;
+    color: #CBD8DC;
+}
+
+.btn-secondary1-hover
+{
+    text-decoration: none;
+    border:  solid 3px #7F9EA8;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 11px 36px;
+    background-color: #FFFFFF;
+    color: #7596A1;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-secondary1-active
+{
+    text-decoration: none;
+    border:  solid 2px #E3EAEC;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #EDF1F3;
+    color: #9FB6BE;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-secondary1-disabled
+{
+    text-decoration: none;
+    border: solid 2px #F2F5F6;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #CBD8DC;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+
+.btn-destructive1
+{
+    text-decoration: none;
+    border: solid 2px #F5B9A7;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #EF8768;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive1:hover
+{
+    padding: 11px 36px;
+    border: solid 3px #EF8D70;
+}
+.btn-destructive1:active
+{
+    background-color: #F4A892;
+    border:  solid 2px #F4A892;
+    color: #FFFEFE;
+}
+.btn-destructive1:disabled
+{
+    border:  solid 2px #FADCD3;
+    color: #F7C2B2;
+}
+
+
+.btn-destructive1-hover
+{
+    text-decoration: none;
+    border: solid 3px #EF8D70;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 11px 36px;
+    background-color: #FFFFFF;
+    color: #EF8768;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive1-active
+{
+    text-decoration: none;
+    border:  solid 2px #F4A892;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #F4A892;
+    color: #FFFEFE;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
+.btn-destructive1-disabled
+{
+    text-decoration: none;
+    border:  solid 2px #FADCD3;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 12px 37px;
+    background-color: #FFFFFF;
+    color: #F7C2B2;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+}
