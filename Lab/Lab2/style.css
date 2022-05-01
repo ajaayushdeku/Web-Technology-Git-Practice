@@ -76,7 +76,7 @@
     border-bottom: inset #26BE96;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #26BE96;
     color: #D2F1E9;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -107,7 +107,7 @@
     border-bottom: inset #229B86;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #26BE96;
     color: #D2F1E9;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -119,7 +119,7 @@
     border-bottom: inset #67D2B6;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #67D2B6;
     color: #FAFEFD;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -131,7 +131,7 @@
     border-bottom: inset #A9E5D5;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #A9E5D5;
     color: #FCFEFE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -148,7 +148,7 @@
     border-bottom: inset #E5EBED;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #E5EBED;
     color: #7698A2;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -179,7 +179,7 @@
     border-bottom: inset #9FB7BE;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #E5EBED;
     color: #7698A2;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -191,7 +191,7 @@
     border-bottom: inset #EDF1F3;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #EDF1F3;
     color: #9CB5BC;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -203,7 +203,7 @@
     border-bottom: inset #F5F7F8;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #F5F7F8;
     color: #C3D2D6;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -218,7 +218,7 @@
     border-bottom: inset #EE8363;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #EE8363;
     color: #FDEEEB;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -248,7 +248,7 @@
     border-bottom: inset #BE684F;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #EE8363;
     color: #FDEEEB;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -260,7 +260,7 @@
     border-bottom: inset #F4A892;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #F4A892;
     color: #FEF6F3;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -272,7 +272,7 @@
     border-bottom: inset #F9CEC1;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 10px 37px;
     background-color: #F9CEC1;
     color: #FFFEFE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -296,7 +296,7 @@
     border:  solid 2px #1DBB92;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #15B98F;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -309,7 +309,7 @@
 .btn-primary1:active
 {
     border:  solid 2px #67D2B6;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #67D2B6;
     color: #EDFAF6;
 }
@@ -317,7 +317,7 @@
 {
     border:  solid 2px #A5E4D4;
     color: #A4E4D3;
-    padding: 11px 36px;
+    padding: 9px 36px;
 }
 
 
@@ -327,7 +327,7 @@
     border:  solid 3px #00B284;
     border-radius: 7px;
     margin: 10px;
-    padding: 10px 35px;
+    padding: 8px 35px;
     background-color: #FFFFFF;
     color: #15B98F;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -338,7 +338,7 @@
     border:  solid 2px #67D2B6;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #67D2B6;
     color: #EDFAF6;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -349,7 +349,7 @@
     border:  solid 2px #A5E4D4;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #A4E4D3;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -363,7 +363,7 @@
     border: solid 2px #C5D3D8;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #7596A1;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -371,7 +371,7 @@
 }
 .btn-secondary1:hover
 {
-    padding: 10px 35px;
+    padding: 8px 35px;
     border:  solid 3px #7F9EA8;
 }
 .btn-secondary1:active
@@ -379,13 +379,13 @@
     border:  solid 2px #E3EAEC;
     background-color: #EDF1F3;
     color: #9FB6BE;
-    padding: 11px 36px;
+    padding: 9px 36px;
 }
 .btn-secondary1:disabled
 {
     border:  solid 2px #F2F5F6;
     color: #CBD8DC;
-    padding: 11px 36px;
+    padding: 9px 36px;
 }
 
 .btn-secondary1-hover
@@ -394,7 +394,7 @@
     border:  solid 3px #7F9EA8;
     border-radius: 7px;
     margin: 10px;
-    padding: 10px 35px;
+    padding: 8px 35px;
     background-color: #FFFFFF;
     color: #7596A1;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -405,7 +405,7 @@
     border:  solid 2px #E3EAEC;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #EDF1F3;
     color: #9FB6BE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -416,7 +416,7 @@
     border: solid 2px #F2F5F6;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #CBD8DC;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -429,14 +429,14 @@
     border: solid 2px #F5B9A7;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #EF8768;
     font-family:'Gill Sans', Calibri,  sans-serif;
 }
 .btn-destructive1:hover
 {
-    padding: 10px 35px;
+    padding: 8px 35px;
     border: solid 3px #EF8D70;
 }
 .btn-destructive1:active
@@ -444,13 +444,13 @@
     background-color: #F4A892;
     border:  solid 2px #F4A892;
     color: #FFFEFE;
-    padding: 11px 36px;
+    padding: 9px 36px;
 }
 .btn-destructive1:disabled
 {
     border:  solid 2px #FADCD3;
     color: #F7C2B2;
-    padding: 11px 36px;
+    padding: 9px 36px;
 }
 
 
@@ -460,7 +460,7 @@
     border: solid 3px #EF8D70;
     border-radius: 7px;
     margin: 10px;
-    padding: 10px 35px;
+    padding: 8px 35px;
     background-color: #FFFFFF;
     color: #EF8768;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -471,7 +471,7 @@
     border:  solid 2px #F4A892;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #F4A892;
     color: #FFFEFE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -482,7 +482,7 @@
     border:  solid 2px #FADCD3;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 9px 36px;
     background-color: #FFFFFF;
     color: #F7C2B2;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -493,6 +493,7 @@ div
 {
   margin: 45px;
   font-weight: 600;
+  font-size: larger;
 }
 span
 {
@@ -507,6 +508,7 @@ p{
     font-family:'Gill Sans', Calibri,  sans-serif;
     font-size: 40px;
     font-weight: 600;
+    margin: 20px 20px 5px 20px;
 }
 .align
 {
