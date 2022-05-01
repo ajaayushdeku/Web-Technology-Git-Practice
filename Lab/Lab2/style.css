@@ -5,7 +5,7 @@
     border-bottom: inset #26BE96 ;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: #26BE96;
     color: #FFFFFF;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -35,7 +35,7 @@
     border-bottom: inset #229B86;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: #26BE96;
     color: #FFFFFF;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -47,7 +47,7 @@
     border-bottom: inset #67D2B6;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: #67D2B6;
     color: #FFFFFF;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -59,7 +59,7 @@
     border-bottom: inset #A9E5D5;
     border-radius: 25px;
     margin: 10px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     background-color: #A9E5D5;
     color: #FFFFFF;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -210,6 +210,7 @@
 }
 
 
+
 .btn-destructive
 {
     text-decoration: none;
@@ -277,10 +278,6 @@
     font-family:'Gill Sans', Calibri,  sans-serif;
 }
 
-div
-{
-  margin: 45px;
-}
 
 
 
@@ -299,19 +296,20 @@ div
     border:  solid 2px #1DBB92;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #15B98F;
     font-family:'Gill Sans', Calibri,  sans-serif;
 }
 .btn-primary1:hover
 {
-    padding: 11px 36px;
+    padding: 10px 35px;
     border:  solid 3px #00B284;
 }
 .btn-primary1:active
 {
     border:  solid 2px #67D2B6;
+    padding: 11px 36px;
     background-color: #67D2B6;
     color: #EDFAF6;
 }
@@ -319,6 +317,7 @@ div
 {
     border:  solid 2px #A5E4D4;
     color: #A4E4D3;
+    padding: 11px 36px;
 }
 
 
@@ -328,7 +327,7 @@ div
     border:  solid 3px #00B284;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 10px 35px;
     background-color: #FFFFFF;
     color: #15B98F;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -339,7 +338,7 @@ div
     border:  solid 2px #67D2B6;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #67D2B6;
     color: #EDFAF6;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -350,7 +349,7 @@ div
     border:  solid 2px #A5E4D4;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #A4E4D3;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -364,7 +363,7 @@ div
     border: solid 2px #C5D3D8;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #7596A1;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -372,7 +371,7 @@ div
 }
 .btn-secondary1:hover
 {
-    padding: 11px 36px;
+    padding: 10px 35px;
     border:  solid 3px #7F9EA8;
 }
 .btn-secondary1:active
@@ -380,11 +379,13 @@ div
     border:  solid 2px #E3EAEC;
     background-color: #EDF1F3;
     color: #9FB6BE;
+    padding: 11px 36px;
 }
 .btn-secondary1:disabled
 {
     border:  solid 2px #F2F5F6;
     color: #CBD8DC;
+    padding: 11px 36px;
 }
 
 .btn-secondary1-hover
@@ -393,7 +394,7 @@ div
     border:  solid 3px #7F9EA8;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 10px 35px;
     background-color: #FFFFFF;
     color: #7596A1;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -404,7 +405,7 @@ div
     border:  solid 2px #E3EAEC;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #EDF1F3;
     color: #9FB6BE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -415,7 +416,7 @@ div
     border: solid 2px #F2F5F6;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #CBD8DC;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -428,14 +429,14 @@ div
     border: solid 2px #F5B9A7;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #EF8768;
     font-family:'Gill Sans', Calibri,  sans-serif;
 }
 .btn-destructive1:hover
 {
-    padding: 11px 36px;
+    padding: 10px 35px;
     border: solid 3px #EF8D70;
 }
 .btn-destructive1:active
@@ -443,11 +444,13 @@ div
     background-color: #F4A892;
     border:  solid 2px #F4A892;
     color: #FFFEFE;
+    padding: 11px 36px;
 }
 .btn-destructive1:disabled
 {
     border:  solid 2px #FADCD3;
     color: #F7C2B2;
+    padding: 11px 36px;
 }
 
 
@@ -457,7 +460,7 @@ div
     border: solid 3px #EF8D70;
     border-radius: 7px;
     margin: 10px;
-    padding: 11px 36px;
+    padding: 10px 35px;
     background-color: #FFFFFF;
     color: #EF8768;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -468,7 +471,7 @@ div
     border:  solid 2px #F4A892;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #F4A892;
     color: #FFFEFE;
     font-family:'Gill Sans', Calibri,  sans-serif;
@@ -479,8 +482,39 @@ div
     border:  solid 2px #FADCD3;
     border-radius: 7px;
     margin: 10px;
-    padding: 12px 37px;
+    padding: 11px 36px;
     background-color: #FFFFFF;
     color: #F7C2B2;
     font-family:'Gill Sans', Calibri,  sans-serif;
+}
+
+
+div
+{
+  margin: 45px;
+  font-weight: 600;
+}
+span
+{
+    margin: 20px;
+    padding: 15px 20px;
+    color: #CAD7DB;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    width: 80px;
+}
+p{
+    color: #4F5053;
+    font-family:'Gill Sans', Calibri,  sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.align
+{
+    margin: 10px;
+    padding: 12px 28px;
+}
+.plus
+{
+    font-size: 27px;
+    font-weight: bolder;
 }
