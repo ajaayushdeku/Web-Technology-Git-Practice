@@ -5,10 +5,10 @@
 ## Borders:
 ![App Screenshot](./Borders.png)
 
-## Background
+# Background
 #### The background properties are used to add background effects for elements such as color, image, size, position and attachment. The shorthand property can be used to set all the background type properties.
 
-## Some Background Type Properties are:
+# Some Background Type Properties are:
 
 ## background-color
 #### This background property is used to set background color of an element. It requires color name or code number as it's value.
