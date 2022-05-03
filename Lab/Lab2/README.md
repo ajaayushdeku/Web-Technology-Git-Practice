@@ -10,10 +10,11 @@
 
 # Some Background Type Properties are:
 
-## background-color
-#### This background property is used to set background color of an element. It requires color name or code number as it's value.
+## background-color  
+#### This background property is used to set background color of an element. It requires color name or code number as it's value.  
 ###  Example : background-color : red;
-
+  
+  
 ## background-image
 ####  This background property is used to set one or more images on an element at background. It requires url of the images as it's value.
 ###  Example : background-image : url("../../media/examples/apple.png");
