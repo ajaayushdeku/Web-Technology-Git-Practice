@@ -63,7 +63,8 @@
 #### -It's properties are executed when the cursor clicks the element.
 
 ## :visited
-#### -It's properties are executed when element has been visited.
+#### -It's properties are executed when element has already been visited.
 
 ## :disabled
-#### -It's properties are executed when element is in disabled state.
+#### -It's properties are executed when element is in disabled state i.e. if it can't be activated.
+
