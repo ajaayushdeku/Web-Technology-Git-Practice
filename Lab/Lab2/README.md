@@ -14,7 +14,7 @@
 
 ## a. background-color  
 ### - This background property is used to set background color of an element. It requires color name or code number as it's value.  
-  Example : ```background-color : red;```
+  Example : `background-color : red;`
             `background-color : #FFFFFF;`
   
 ---
@@ -34,19 +34,19 @@
 
 ## d. background-position
 ###  - This background property is used to set the initial position for each background image.
- Example : ```background-position : center;```
-           ```background-position: top;```
-           ```background-position: bottom;```
-           ```background-position: left;```
-           ```background-position: right;```
+ Example : `background-position : center;`
+           `background-position: top;`
+           `background-position: bottom;`
+           `background-position: left;`
+           `background-position: right;`
   
 ---
           
 ## e. background-attachment
 ###  -This background property is used to set whether a background image's position is fixed within the viewport, or scroll with its containing block.
- Example : ```background-attachment : scroll;```
-           ```background-attachment: fixed;```
-            ```background-attachment: local;```
+ Example : `background-attachment : scroll;`
+           `background-attachment: fixed;`
+           `background-attachment: local;`
 
 ## 
 *** 
@@ -59,30 +59,30 @@
 
 ## a. Margin
 ### - This property is used to create space around the elements, outside of any defined borders. It can take four values for the spacing and the value applies space orderly around the element i.e. top right bottom left order. It's shorthand property can be used to space equally around the element. It takes value in the form of pixel(px), em and also percentage form.
-### Example : margin : 20px;
-###           margin : 20px 10px 20px 10px;
-###           margin : 1em 2em;
-###           margin : 5% auto;
+ Example : `margin : 20px;`
+           `margin : 20px 10px 20px 10px;`
+           `margin : 1em 2em;`
+           `margin : 5% auto;`
 
 ---
 
 ## b. Border
 ### - This property is used to specify the kind of border to display such as dotted, dashed, solid, double, inset, and outset. It's shorthand property can used to set the values of border-width, border-style, and border-color.
-### Example : border : dotted 1px;
-###           border : dashed 1px;
-###           border : solid 1px; 
-###           border : double 1px;
-###           border : inset 1px;
-###           border : outset 1px;
+ Example : `border : dotted 1px;`
+           `border : dashed 1px;`
+           `border : solid 1px;` 
+           `border : double 1px;`
+           `border : inset 1px;`
+           `border : outset 1px;`
 
 ---
 
 ## c. Padding
 ### - This property is used to create space around the element's content, inside of any defined borders. Similar to margin, padding also can take four values for the spacing and in same order (top right bottom left).It's shorthand property can be used to space equally around the element's content and the border from inside.
-### Example : padding : 10px;
-###           padding : 10px 5px 10px 5px;
-###           padding : 1em 2em;
-###           padding : 5% 10%;
+ Example : `padding : 10px;`
+           `padding : 10px 5px 10px 5px;`
+           `padding : 1em 2em;`
+           `padding : 5% 10%;`
 
 ## 
 *** 
@@ -97,19 +97,47 @@
 
 ## :hover
 ### - It's properties are executed when the cursor hovers over the element.
+Example : 
+```CSS
+a:hover 
+{
+  color: red;
+}
+```
 
 ---
 
 ## :active
 ###  - It's properties are executed when the cursor clicks the element.
+Example : 
+```CSS
+a:active 
+{
+  color: pink;
+}
+```
 
 ---
 
 ## :visited
 ### - It's properties are executed when element has already been visited.
+Example : 
+```CSS
+a:visited 
+{
+  color: brown;
+}
+```
 
 ---
 
 ## :disabled
 ### - It's properties are executed when element is in disabled state i.e. if it can't be activated.
+Example : 
+```CSS
+a:disabled 
+{
+  color: gray;
+}
+```
 
