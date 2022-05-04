@@ -196,6 +196,8 @@
 {
     border-radius: 7px;
 }
+
+
 .btn-primary1
 {
     border:  solid 2px #1DBB92;
@@ -221,8 +223,6 @@
     color: #A4E4D3;
     padding: 9px 36px;
 }
-
-
 .btn-primary1-hover
 {
     border:  solid 3px #00B284;
@@ -272,7 +272,6 @@
     color: #CBD8DC;
     padding: 9px 36px;
 }
-
 .btn-secondary1-hover
 {
     border:  solid 3px #7F9EA8;
@@ -321,8 +320,6 @@
     color: #F7C2B2;
     padding: 9px 36px;
 }
-
-
 .btn-destructive1-hover
 {
     border: solid 3px #EF8D70;
@@ -344,6 +341,102 @@
     background-color: #FFFFFF;
     color: #F7C2B2;
 }
+
+
+.btn-primarybg
+{
+    border-bottom: inset #FFFFFF;
+    background-color: #FFFFFF;
+    color: #49C8A7;
+}
+.btn-primarybg:hover
+{
+    border-bottom: inset #99E0CE;
+
+}
+.btn-primarybg:active
+{
+    border-bottom: inset #BEEBDF;
+    background-color: #BEEBDF;
+    color: #13B78D;
+}
+.btn-primarybg:disabled
+{
+    border-bottom: inset #7CD8C0;
+    background-color: #7CD8C0;
+    color: #1ABB91;
+}
+
+.btn-primarybg-hover
+{
+    border-bottom: inset #99E0CE;
+    background-color: #FFFFFF;
+    color: #49C8A7;
+
+}
+.btn-primarybg-active
+{
+    border-bottom: inset #BEEBDF;
+    background-color: #BEEBDF;
+    color: #13B78D;
+}
+.btn-primarybg-disabled
+{
+    border-bottom: inset #7CD8C0;
+    background-color: #7CD8C0;
+    color: #1ABB91;
+}
+
+
+
+.btn-secondarybg
+{
+    border: solid 2px #90DDC9;
+    padding: 9px 36px;
+    background-color: #26BE96;
+    color: #F6FCFB;
+}
+.btn-secondarybg:hover
+{
+    padding: 8px 35px;
+    border:  solid 3px #E9F8F4;
+}
+.btn-secondarybg:active
+{
+    border:  solid 2px #BEEBDF;
+    background-color: #BEEBDF;
+    color: #26BE96;
+    padding: 9px 36px;
+}
+.btn-secondarybg:disabled
+{
+    border: solid 2px #89DBC6;
+    padding: 9px 36px;
+    color: #89DBC6;
+}
+
+.btn-secondarybg-hover
+{
+    border:  solid 3px #E9F8F4;
+    padding: 8px 35px;
+    background-color: #26BE96;
+    color: #F6FCFB;
+}
+.btn-secondarybg-active
+{
+    border:  solid 2px #BEEBDF;
+    background-color: #BEEBDF;
+    color: #26BE96;
+    padding: 9px 36px;
+}
+.btn-secondarybg-disabled
+{
+    border: solid 2px #89DBC6;
+    padding: 9px 36px;
+    background-color: #26BE96;
+    color: #89DBC6;
+}
+
 
 section {
     display: flex;
@@ -378,10 +471,17 @@ p{
 .align
 {
     text-align: center;
+
 }
 .al
 {
     text-align: left;
     padding: 20px;
 }
+#bg
+{
+    background-color: #26BE96;
+}
+
+
 
