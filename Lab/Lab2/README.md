@@ -15,6 +15,7 @@
 ## a. background-color  
 #### -This background property is used to set background color of an element. It requires color name or code number as it's value.  
 ###  Example : background-color : red;
+###            background-color : #FFFFFF;
   
 #
 
@@ -27,18 +28,25 @@
 ## c. background-size
 ####  -This background property is used to set the size of the background image.
 ###  Example : background-size : auto;
+###            background-size : 200px 100px;
 
 #
 
 ## d. background-position
 ####  -This background property is used to set the initial position for each background image.
 ###  Example : background-position : center;
+###            background-position: top;
+###            background-position: bottom;
+###            background-position: left;
+###            background-position: right;
   
 #
           
 ## e. background-attachment
 ####  -This background property is used to set whether a background image's position is fixed within the viewport, or scroll with its containing block.
 ###  Example : background-attachment : scroll;
+###            background-attachment: fixed;
+###            background-attachment: local;
 
 ##  
 ##  
