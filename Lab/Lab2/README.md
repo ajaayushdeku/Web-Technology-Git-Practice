@@ -49,20 +49,32 @@
 #
 
 ## a. Margin
-#### -This property is used to create space around the elements, outside of any defined borders. It can take four values for the spacing and the value applies space orderly around the element i.e. top right bottom left order. It's shorthand property can be used to space equally around the element.
-### Example : margin : 20px 10px 20px 10px;
+#### -This property is used to create space around the elements, outside of any defined borders. It can take four values for the spacing and the value applies space orderly around the element i.e. top right bottom left order. It's shorthand property can be used to space equally around the element. It takes value in the form of pixel(px), em and also percentage form.
+### Example : margin : 20px;
+###           margin : 20px 10px 20px 10px;
+###           margin : 1em 2em;
+###           margin : 5% auto;
 
 #
 
 ## b. Border
-#### -This property is used to specify the kind of border to display such as dotted, dashed, solid, double, inset, and outset. To display different types of borders , border-style property is used with dotted, dashed, solid, double, inset, and outset as values.
-### Example : border-style : solid 1px;
+#### -This property is used to specify the kind of border to display such as dotted, dashed, solid, double, inset, and outset. It's shorthand property can used to set the values of border-width, border-style, and border-color.
+### Example : border : dotted 1px;
+###           border : dashed 1px;
+###           border : solid 1px; 
+###           border : double 1px;
+###           border : inset 1px;
+###           border : outset 1px;
+
 
 #
 
 ## c. Padding
-#### -This property is used to create space around the element's content, inside of any defined borders. Similar to margin, padding also can take four values for the spacing and in same order (top right bottom left).It's shorthand property can be used to space equally around the element's content.
-### Example : padding : 10px 5px 10px 5px;
+#### -This property is used to create space around the element's content, inside of any defined borders. Similar to margin, padding also can take four values for the spacing and in same order (top right bottom left).It's shorthand property can be used to space equally around the element's content and the border from inside.
+### Example : padding : 10px;
+###           padding : 10px 5px 10px 5px;
+###           padding : 1em 2em;
+###           padding : 5% 10%;
 
 ##  
 ##  
