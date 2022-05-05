@@ -52,8 +52,8 @@
 *** 
 ##  
 
-# Border Model
-### - The Border Model mainly consist of four parts/properties : Margin , Border , Padding and Content.
+# Box Model
+### - The Box Model mainly consist of four parts/properties : Margin , Border , Padding and Content.
 
 ---
 
