@@ -232,25 +232,21 @@ section
 /*-----Neutral-----*/
 .neutral-50
 {
-    border: 1px solid #000;
     background-color: #fafafa;
 }
 
 .neutral-100
 {
-    border: 1px solid #000;
     background-color: #f5f5f5;
 }
 
 .neutral-200
 {
-    border: 1px solid #000;
     background-color: #e5e5e5;
 }
 
 .neutral-300
 {
-    border: 1px solid #000;
     background-color: #d4d4d4;
 }
 
@@ -695,759 +691,509 @@ section
 /*-----Teal-----*/
 .teal-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #f0fdfa;
 }
 
 .teal-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #ccfbf1;
 }
 
 .teal-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #99f6e4;
 }
 
 .teal-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #5eead4;
 }
 
 .teal-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #2dd4bf;
 }
 
 .teal-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #14b8a6;
 }
 
 .teal-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #0d9488;
 }
 
 .teal-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #0f766e;
 }
 
 .teal-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #115e59;
 }
 
 .teal-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #134e4a;
 }
-/*Teal
-50
-#f0fdfa
-100
-#ccfbf1
-200
-#99f6e4
-300
-#5eead4
-400
-#2dd4bf
-500
-#14b8a6
-600
-#0d9488
-700
-#0f766e
-800
-#115e59
-900
-#134e4a*/
 
 /*-----Cyan-----*/
 .cyan-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #ecfeff;
 }
 
 .cyan-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #cffafe;
 }
 
 .cyan-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #a5f3fc;
 }
 
 .cyan-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #67e8f9;
 }
 
 .cyan-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #22d3ee;
 }
 
 .cyan-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #06b6d4;
 }
 
 .cyan-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #0891b2;
 }
 
 .cyan-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #0e7490;
 }
 
 .cyan-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #155e75;
 }
 
 .cyan-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #164e63;
 }
-/*Cyan
-50
-#ecfeff
-100
-#cffafe
-200
-#a5f3fc
-300
-#67e8f9
-400
-#22d3ee
-500
-#06b6d4
-600
-#0891b2
-700
-#0e7490
-800
-#155e75
-900
-#164e63*/
 
 /*-----Sky-----*/
 .sky-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #f0f9ff;
 }
 
 .sky-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #e0f2fe;
 }
 
 .sky-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #bae6fd;
 }
 
 .sky-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #7dd3fc;
 }
 
 .sky-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #38bdf8;
 }
 
 .sky-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #0ea5e9;
 }
 
 .sky-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #0284c7;
 }
 
 .sky-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #0369a1;
 }
 
 .sky-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #075985;
 }
 
 .sky-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #0c4a6e;
 }
-/*Sky
-50
-#f0f9ff
-100
-#e0f2fe
-200
-#bae6fd
-300
-#7dd3fc
-400
-#38bdf8
-500
-#0ea5e9
-600
-#0284c7
-700
-#0369a1
-800
-#075985
-900
-#0c4a6e*/
 
 /*-----Blue-----*/
 .blue-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #eff6ff;
 }
 
 .blue-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #dbeafe;
 }
 
 .blue-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #bfdbfe;
 }
 
 .blue-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #93c5fd;
 }
 
 .blue-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #60a5fa;
 }
 
 .blue-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #3b82f6;
 }
 
 .blue-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #2563eb;
 }
 
 .blue-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #1d4ed8;
 }
 
 .blue-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #1e40af;
 }
 
 .blue-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #1e3a8a;
 }
-/*Blue
-50
-#eff6ff
-100
-#dbeafe
-200
-#bfdbfe
-300
-#93c5fd
-400
-#60a5fa
-500
-#3b82f6
-600
-#2563eb
-700
-#1d4ed8
-800
-#1e40af
-900
-#1e3a8a*/
 
 /*-----Indigo-----*/
 .indigo-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #eef2ff;
 }
 
 .indigo-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #e0e7ff;
 }
 
 .indigo-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #c7d2fe;
 }
 
 .indigo-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #a5b4fc;
 }
 
 .indigo-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #818cf8;
 }
 
 .indigo-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #6366f1;
 }
 
 .indigo-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #4f46e5;
 }
 
 .indigo-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #4338ca;
 }
 
 .indigo-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #3730a3;
 }
 
 .indigo-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #312e81;
 }
-/*Indigo
-50
-#eef2ff
-100
-#e0e7ff
-200
-#c7d2fe
-300
-#a5b4fc
-400
-#818cf8
-500
-#6366f1
-600
-#4f46e5
-700
-#4338ca
-800
-#3730a3
-900
-#312e81*/
 
 /*-----Violet-----*/
 .violet-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #f5f3ff;
 }
 
 .violet-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #ede9fe;
 }
 
 .violet-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #ddd6fe;
 }
 
 .violet-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #c4b5fd;
 }
 
 .violet-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #a78bfa;
 }
 
 .violet-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #8b5cf6;
 }
 
 .violet-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #7c3aed;
 }
 
 .violet-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #6d28d9;
 }
 
 .violet-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #5b21b6;
 }
 
 .violet-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #4c1d95;
 }
-/*Violet
-50
-#f5f3ff
-100
-#ede9fe
-200
-#ddd6fe
-300
-#c4b5fd
-400
-#a78bfa
-500
-#8b5cf6
-600
-#7c3aed
-700
-#6d28d9
-800
-#5b21b6
-900
-#4c1d95*/
 
 /*-----Purple-----*/
 .purple-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #faf5ff;
 }
 
 .purple-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #f3e8ff;
 }
 
 .purple-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #e9d5ff;
 }
 
 .purple-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #d8b4fe;
 }
 
 .purple-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #c084fc;
 }
 
 .purple-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #a855f7;
 }
 
 .purple-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #9333ea;
 }
 
 .purple-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #7e22ce;
 }
 
 .purple-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #6b21a8;
 }
 
 .purple-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #581c87;
 }
-/*Purple
-50
-#faf5ff
-100
-#f3e8ff
-200
-#e9d5ff
-300
-#d8b4fe
-400
-#c084fc
-500
-#a855f7
-600
-#9333ea
-700
-#7e22ce
-800
-#6b21a8
-900
-#581c87*/
 
 /*-----Fuchsia-----*/
 .fuchsia-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #fdf4ff;
 }
 
 .fuchsia-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #fae8ff;
 }
 
 .fuchsia-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #f5d0fe;
 }
 
 .fuchsia-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #f0abfc;
 }
 
 .fuchsia-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #e879f9;
 }
 
 .fuchsia-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #d946ef;
 }
 
 .fuchsia-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #c026d3;
 }
 
 .fuchsia-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #a21caf;
 }
 
 .fuchsia-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #86198f;
 }
 
 .fuchsia-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #701a75;
 }
-/*Fuchsia
-50
-#fdf4ff
-100
-#fae8ff
-200
-#f5d0fe
-300
-#f0abfc
-400
-#e879f9
-500
-#d946ef
-600
-#c026d3
-700
-#a21caf
-800
-#86198f
-900
-#701a75*/
 
 /*-----Pink-----*/
 .pink-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #fdf2f8;
 }
 
 .pink-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #fce7f3;
 }
 
 .pink-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #fbcfe8;
 }
 
 .pink-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #f9a8d4;
 }
 
 .pink-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #f472b6;
 }
 
 .pink-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #ec4899;
 }
 
 .pink-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #db2777;
 }
 
 .pink-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #be185d;
 }
 
 .pink-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #9d174d;
 }
 
 .pink-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #831843;
 }
-/*Pink
-50
-#fdf2f8
-100
-#fce7f3
-200
-#fbcfe8
-300
-#f9a8d4
-400
-#f472b6
-500
-#ec4899
-600
-#db2777
-700
-#be185d
-800
-#9d174d
-900
-#831843*/
 
 /*-----Rose-----*/
 .rose-50
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,98%,1);
+    background-color: #fff1f2;
 }
 
 .rose-100
 {
-    border: 1px solid #000;
-    background-color: hsla(210,40%,96%,1);
+    background-color: #ffe4e6;
 }
 
 .rose-200
 {
-    border: 1px solid #000;
-    background-color: hsla(214,32%,91%,1);
+    background-color: #fecdd3;
 }
 
 .rose-300
 {
-    border: 1px solid #000;
-    background-color: hsla(213,27%,84%,1);
+    background-color: #fda4af;
 }
 
 .rose-400
 {
-    background-color: hsla(215,20%,65%,1);
+    background-color: #fb7185;
 }
 
 .rose-500
 {
-    background-color: hsla(215,16%,47%,1);
+    background-color: #f43f5e;
 }
 
 .rose-600
 {
-    background-color: hsla(215,19%,35%,1);
+    background-color: #e11d48;
 }
 
 .rose-700
 {
-    background-color: hsla(215,25%,27%,1);
+    background-color: #be123c;
 }
 
 .rose-800
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #9f1239;
 }
 
 .rose-900
 {
-    background-color: hsla(217,33%,17%,1);
+    background-color: #881337;
 }
-/*Rose
-50
-#fff1f2
-100
-#ffe4e6
-200
-#fecdd3
-300
-#fda4af
-400
-#fb7185
-500
-#f43f5e
-600
-#e11d48
-700
-#be123c
-800
-#9f1239
-900
-#881337*/
