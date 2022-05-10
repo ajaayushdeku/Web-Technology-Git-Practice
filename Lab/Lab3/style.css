@@ -2,55 +2,51 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/inter/v11/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZxhiI2B.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-  }
+    src: url(https://fonts.gstatic.com/s/inter/v11/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZJhiI2B.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
 * {
     font-weight: 600;
     line-height: 20px;
-}
-
-html{
-    background-color: hsl(222,47%,11%);
-    color: #FFF;
-    /*background-image: linear-gradient(rgb(69, 68, 68),gray,white);*/
     
 }
 
-.ver
-{
+html {
+    background-color: hsl(222,47%,11%);
+    color: #FFF;  
+}
+
+.ver {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.hori
-{
+.hori {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding: 0.7em;
 }
 
-.font-size
-{
+.font-size {
     font-size: small;
 }
 
-p{
+p {
     margin: 1em 1.15em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -.5em;
+    margin-left: -.2em;
 }
 
-section
-{
-    display: flex;
-    margin: 1rem;
-    margin: 1.5em -5em;
+section {
+
+    margin: 1.5em 5em;
 
 }
 
-.pad
-{
+.pad {
     padding: 2em;
     border-radius: 7px;
     border: 1px solid #000;
@@ -58,31 +54,45 @@ section
 
 div
 {
-    display: flex;
-    flex-direction: column;
     margin: -0.3em -.1em;
     padding: 0.5em 0.5em;
 }
 
-span
-{
-    display: flex;
-    margin: 0.15em 0.5em;
-    padding: 1em 3vw;
+span {
+    display: inline-block;
+    justify-content: left;
+    margin:auto;
+    padding: 1em;
 }
 
-section
-{
+section {
     display: flex;
     flex-direction: column;
+    margin-left: -1em;
 }
-.al{
-    display: flex;
-    justify-content: left;
+
+.al {
+
     padding-bottom: 4em;
     margin: auto;
-
+    width: 100px;
+    color: hsl(216,23%,87%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
 }
+
+.h {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+.hsl {
+    font-size: .7em;
+    color :hsl(215,19%,62%);
+    width: 100px;
+}
+
 
 /*-----Slate-----*/
 .slate-50 {
