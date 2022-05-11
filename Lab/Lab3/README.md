@@ -47,10 +47,10 @@
 
 #### - These two are other color-value forms.
 #### - RGB value is a function which is takes three parameters that represent the red, green, and blue channel values of the colors, in much the same way as hex values.
-Syntax : rgb( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel)
+`Syntax : rgb( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel)`
 #### - The difference of RGB with hex-value is that each channel is represented by decimal number between 0 and 255 instead of two hex digits.
 #### - RGBA value is same as RGB value but with addition of fourth parameter/value that represents the alpha channel of the color which controls opacity.
-Syntax : rgba( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel, 0-1 for opacity)
+`Syntax : rgba( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel, 0-1 for opacity)`
 #### - It is much easier to understand than hex-valuex.
 
 ## Example
