@@ -5,6 +5,7 @@
 # Color-Value
 
 ## 1. Keyword
+
 #### - Keywords are case-insensitive identifiers that represents a specific color, such as red, blue, black, or white.
 #### - All the colors represented through keywords are plain, solid colors without transparency. 
 #### - Beside color keywords, other keywords such as 'transparent' can be to create a wholly transparent color, 'currentColor' that  can be used to represent the value of an element's color property lets us use the color value on properties that do not receive it by default.
@@ -12,12 +13,31 @@
 
 ## Example
 ```CSS
-a{
+.text-color {
     color : red;
 }
 
-b{
+.bg-color {
     background-color : blue;
+}
+
+```
+---
+
+## 2. Hexadecimal Color-Value
+
+#### - This value consist of a hash symbol followed by six hexadecimal numbers, each of which can take one of 16 values between 0 and f (0123456789abcdef).
+      Syntax : #RRGGBB
+#### - Each pair of values represents one of the channels : RR (red), GG (green) and BB (blue), and allows us to specify any of the 256 available values for each pair.
+#### - This value method is a bit more complex than keywords, but it makes up for it's shortcoming through it's versility.
+
+```CSS
+.text-color {
+    color : #02798b;
+}
+
+.bg-color {
+    background-color : #c55da1;
 }
 
 ```
