@@ -1,3 +1,7 @@
+## Screenshots
+## Color Palette:
+![App Screenshot](./Colors.jpeg)
+
 # Color
 #### - Colors plays an important role in web development as it is one of the method responsible for making the web site / pages visually appealing to the user. We can set colors of the text or the background to decore the site. We can set colors using different form of color-values in css for html elements, and they are listed below :
 
@@ -47,7 +51,7 @@
 
 #### - These two are other color-value forms.
 #### - RGB value is a function which is takes three parameters that represent the red, green, and blue channel values of the colors, in much the same way as hex values.
-       Syntax : rgb( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel)`
+       Syntax : rgb( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel)
 #### - The difference of RGB with hex-value is that each channel is represented by decimal number between 0 and 255 instead of two hex digits.
 #### - RGBA value is same as RGB value but with addition of fourth parameter/value that represents the alpha channel of the color which controls opacity.
       Syntax : rgba( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel, 0-1 for opacity)
@@ -69,5 +73,39 @@
 
 .bg-color {
     background-color: rgba(18, 138, 125, .6);
+}
+```
+---
+## 4. HSL and HSLA Color-Value
+
+#### - These form color-values are widely uesd by the developers these days.
+#### - Similar to RGB, HSl takes three parameters but instead of red, green and blue values, the hsl function accepts hue, saturation and lightness values, which are used to distinguish between the 16.7 million colors.
+       Syntax : hsl( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness)
+
+### Hue = It is the base shade of the color. This takes a value between 0 and 360, representing the angles around a color wheel.
+
+### Saturation = It is used to set the saturation of the color. This takes value in the form of percentage ranging from 0 - 100%, where 0 is no color (it will appear as a shade of grey), and 100% is full color saturation
+ 
+### Lightness = It is used to set brightness of the color. Similar to saturation , this takes value in the form of percentage ranging from 0 - 100%, where 0 is no light (it will appear completely black) and 100% is full light (it will appear completely white)
+
+#### Similarly, HSLA is same as HSL but with additional fourth value that represents the alpha channel of the color which controls opacity.
+       Syntax : hsla( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness,0-1 for opacity)
+
+## Example
+```CSS
+.text-color {
+  color: hsl(188, 97%, 28%);
+}
+
+.bg-color {
+  background-color: hsl(321, 47%, 57%);
+}
+
+.text-color {
+  color: hsla(188, 97%, 28%, .3);
+}
+
+.bg-color {
+  background-color: hsla(321, 47%, 57%, .7);
 }
 ```
