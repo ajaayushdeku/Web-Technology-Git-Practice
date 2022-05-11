@@ -89,12 +89,12 @@
 ### Lightness = It is used to set brightness of the color. Similar to saturation , this takes value in the form of percentage ranging from 0 - 100%, where 0 is no light (it will appear completely black) and 100% is full light (it will appear completely white)
 
 #### Similarly, HSLA is same as HSL but with additional fourth value that represents the alpha channel of the color which controls opacity.
-       Syntax : hsla( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness,0-1 for opacity)
+       Syntax : hsla( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness, 0-1 for opacity)
 
 ## Example
 ```CSS
 .text-color {
-  color: hsl(188, 97%, 28%);
+  color : hsl(188, 97%, 28%);
 }
 
 .bg-color {
@@ -102,7 +102,7 @@
 }
 
 .text-color {
-  color: hsla(188, 97%, 28%, .3);
+  color : hsla(188, 97%, 28%, .3);
 }
 
 .bg-color {
