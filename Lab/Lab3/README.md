@@ -31,6 +31,7 @@
 #### - Each pair of values represents one of the channels : RR (red), GG (green) and BB (blue), and allows us to specify any of the 256 available values for each pair.
 #### - This value method is a bit more complex than keywords, but it makes up for it's shortcoming through it's versility.
 
+## Example 
 ```CSS
 .text-color {
     color : #02798b;
@@ -39,5 +40,34 @@
 .bg-color {
     background-color : #c55da1;
 }
+```
+---
 
+## 3. RGB and RGBA Color-Value
+
+#### - These two are other color-value forms.
+#### - RGB value is a function which is takes three parameters that represent the red, green, and blue channel values of the colors, in much the same way as hex values.
+Syntax : rgb( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel)
+#### - The difference of RGB with hex-value is that each channel is represented by decimal number between 0 and 255 instead of two hex digits.
+#### - RGBA value is same as RGB value but with addition of fourth parameter/value that represents the alpha channel of the color which controls opacity.
+Syntax : rgba( 0-255 for red channel, 0-255 for green channel, 0-255 for blue channel, 0-1 for opacity)
+#### - It is much easier to understand than hex-valuex.
+
+## Example
+```Css
+.text-color {
+    color : rgb(2, 121, 139);
+}
+
+.text-color {
+    color : rgba(2, 121, 139, .3);
+}
+
+.bg-color {
+    background-color: rgb(18, 138, 125);
+}
+
+.bg-color {
+    background-color: rgba(18, 138, 125, .6);
+}
 ```
