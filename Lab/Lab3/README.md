@@ -1,5 +1,5 @@
 ## Deadline : 5th May 2022 - 12th May 2022
-## Screenshots
+
 ## Color Palette:
 ![App Screenshot](./Colors.jpeg)
 

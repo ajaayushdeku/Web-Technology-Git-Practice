@@ -1,5 +1,4 @@
 ## Deadline : 28th April 2022 - 5th May 2022
-## Screenshots
 ## Buttons:
 ![App Screenshot](./Buttons.png)
 
