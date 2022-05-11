@@ -68,11 +68,11 @@
 }
 
 .bg-color {
-    background-color: rgb(18, 138, 125);
+    background-color : rgb(18, 138, 125);
 }
 
 .bg-color {
-    background-color: rgba(18, 138, 125, .6);
+    background-color : rgba(18, 138, 125, .6);
 }
 ```
 ---
@@ -98,7 +98,7 @@
 }
 
 .bg-color {
-  background-color: hsl(321, 47%, 57%);
+  background-color : hsl(321, 47%, 57%);
 }
 
 .text-color {
@@ -106,6 +106,6 @@
 }
 
 .bg-color {
-  background-color: hsla(321, 47%, 57%, .7);
+  background-color : hsla(321, 47%, 57%, .7);
 }
 ```
