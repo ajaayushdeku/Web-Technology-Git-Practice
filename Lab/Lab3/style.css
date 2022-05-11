@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'amblebold';
+    src: url('Amble-Bold-webfont.eot');
+    src: url('Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Amble-Bold-webfont.woff2') format('woff2'),
+         url('Amble-Bold-webfont.woff') format('woff'),
+         url('Amble-Bold-webfont.ttf') format('truetype'),
+         url('Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 * {
     font-weight: 600;
@@ -28,21 +41,35 @@ html {
 
 p {
     margin: 1em 1.15em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'amblebold';
     margin-bottom: -.5em;
     margin-left: -.2em;
 }
 
-section {
+.al {
 
-    margin: 1.5em 5em;
-
+    padding-bottom: 4em;
+    margin: auto;
+    width: 100px;
+    color: hsl(216,23%,87%);
+    font-family: 'amblebold';
 }
 
-.pad {
-    padding: 2em;
-    border-radius: 7px;
-    border: 1px solid #000;
+.h {
+    font-size: 35px;
+    margin: -1em auto;
+    padding: 3vw;
+    font-family: 'amblebold';
+}
+
+.hsl {
+    font-size: .7em;
+    color :hsl(215,19%,62%);
+    width: 105px;
+}
+
+section {
+    margin: 1.5em 5em;
 }
 
 div
@@ -64,29 +91,11 @@ section {
     margin-left: -1em;
 }
 
-.al {
-
-    padding-bottom: 4em;
-    margin: auto;
-    width: 100px;
-    color: hsl(216,23%,87%);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- 
+.pad {
+    padding: 2em;
+    border-radius: 7px;
+    border: 1px solid #000;
 }
-
-.h {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: auto;
-    padding: 3vw;
-}
-
-.hsl {
-    font-size: .7em;
-    color :hsl(215,19%,62%);
-    width: 105px;
-}
-
 
 /*-----Slate-----*/
 .slate-50 {
