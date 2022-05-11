@@ -83,11 +83,11 @@
 #### - Similar to RGB, HSl takes three parameters but instead of red, green and blue values, the hsl function accepts hue, saturation and lightness values, which are used to distinguish between the 16.7 million colors.
        Syntax : hsl( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness)
 
-### Hue = It is the base shade of the color. This takes a value between 0 and 360, representing the angles around a color wheel.
+#### Hue : It is the base shade of the color. This takes a value between 0 and 360, representing the angles around a color wheel.
 
-### Saturation = It is used to set the saturation of the color. This takes value in the form of percentage ranging from 0 - 100%, where 0 is no color (it will appear as a shade of grey), and 100% is full color saturation
+#### Saturation : It is used to set the saturation of the color. This takes value in the form of percentage ranging from 0 - 100%, where 0 is no color (it will appear as a shade of grey), and 100% is full color saturation.
  
-### Lightness = It is used to set brightness of the color. Similar to saturation , this takes value in the form of percentage ranging from 0 - 100%, where 0 is no light (it will appear completely black) and 100% is full light (it will appear completely white)
+#### Lightness : It is used to set brightness of the color. Similar to saturation , this takes value in the form of percentage ranging from 0 - 100%, where 0 is no light (it will appear completely black) and 100% is full light (it will appear completely white).
 
 #### Similarly, HSLA is same as HSL but with additional fourth value that represents the alpha channel of the color which controls opacity.
        Syntax : hsla( 0-360 for hue/base shade, 0-100% for saturation, 0-100% for lightness, 0-1 for opacity)
