@@ -1,5 +1,5 @@
 ## Deadline : 5th May 2022 - 12th May 2022
-
+## Live Web Page : (https://www.aayushsth.com.np/Lab/Lab3/colors.html)
 ## Color Palette:
 ![App Screenshot](./Colors.jpeg)
 
