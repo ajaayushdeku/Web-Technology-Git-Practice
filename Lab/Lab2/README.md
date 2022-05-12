@@ -1,5 +1,7 @@
 ## Deadline : 28th April 2022 - 5th May 2022
-## Live Web Page : (https://www.aayushsth.com.np/Lab/Lab2/buttons.html)
+## Live Web Page : 
+### Buttons : (https://www.aayushsth.com.np/Lab/Lab2/buttons.html) 
+### Borders : (https://www.aayushsth.com.np/Lab/Lab2/borders.html)
 ## Buttons:
 ![App Screenshot](./Buttons.png)
 
