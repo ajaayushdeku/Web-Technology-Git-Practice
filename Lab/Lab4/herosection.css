@@ -77,6 +77,10 @@ img{
 .ch{
     color: hsl(217,14%,33%);
 }
+.check{
+    width: 20px;
+    margin-right: .5em;
+}
 
 
 .en{
