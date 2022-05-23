@@ -62,7 +62,8 @@ a{
     color: hsl(243,75%,59%);
     font-size: 50px;
     font-weight: bolder;
-    margin-right: 0.4em;
+    margin-right: 0.55em;
+    margin-top: -.5em;
 }
 #pnf{
     font-size: 50px;
@@ -80,6 +81,7 @@ a{
     position: relative;
     background-color: hsl(225,12%,93%);
     padding: 3em 0.05em ;
-    margin-right: 40px;
+    margin-right: 30px;
+    margin-top: -.9em;
     height: inherit;
 }
