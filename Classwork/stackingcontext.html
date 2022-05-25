@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacking Context(imp)</title>
+    <style>
+        div{
+            position: relative;
+            border: 1px solid #000;
+        }
+        .div1,.div2,.div3{
+            width: 400px;
+            height: 400px;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0px 2px 16px hsl(260deg 50% 20% / 0.7);
+            margin-top: 2em;
+        }
+        .div1{
+            margin-left: 9em;
+            margin-right: -9em;
+            z-index: 3;
+        }
+        .div2{
+            margin-right: 9em;
+            z-index: 4;
+        }
+        .div3{
+            margin-left: -11em;
+            z-index: 2;
+        }
+        .login{
+            background-color: rgb(24, 24, 37);
+            color: white;
+            padding: 2em;
+        }
+        .float-left{
+            float: left;
+        }
+        .float-right{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+            background-color: rgb(227, 227, 227);
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 4px;
+            padding: 2em 9em;
+            margin-left: 1.7em;
+        }
+        ul{
+            margin-bottom: 5em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login">Login Here</div>
+    <div class="float-left div1">
+        <p>Starter</p>
+        <h1>$29</h1>
+        <ul>For personel projects
+            <li>3 Projects</li>
+            <li>100GB Monthly Transfer</li>
+            <li>20GB Storage</li>
+            <li>No Support</li>
+        </ul>
+
+        <a href="#"> Buy Now</a>
+
+    </div>
+    <div class="float-left div2">
+        <p>Starter</p>
+        <h1>$29</h1>
+        <ul>For personel projects
+            <li>3 Projects</li>
+            <li>100GB Monthly Transfer</li>
+            <li>20GB Storage</li>
+            <li>No Support</li>
+        </ul>
+
+        <a href="#"> Buy Now</a>
+
+    </div>
+    <div class="float-left div3">
+        <p>Starter</p>
+        <h1>$29</h1>
+        <ul>For personel projects
+            <li>3 Projects</li>
+            <li>100GB Monthly Transfer</li>
+            <li>20GB Storage</li>
+            <li>No Support</li>
+        </ul>
+
+        <a href="#"> Buy Now</a>
+
+    </div>
+
+    
+    
+</body>
+</html>
