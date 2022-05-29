@@ -12,6 +12,7 @@
 }
 body{
     font-family: 'aileronblack';
+    width: 100%;
 }
 .float-left{
     float: left;
@@ -28,16 +29,18 @@ header{
     border: 1px solid rgb(189, 189, 189);
     margin: -.5em 0em 0em -.5em;
     height: 63px;
+    width: 100%;
     background-color: hsl(24, 6%, 83%);
 }
 .title{
-    position: absolute;
     margin: 1em .5em .5em 3em;
     font-size: 25px;
     font-weight: bold;
 }
-.logo,.profile{
+.logo,.profile,.title{
     position: absolute;
+}
+.logo,.profile{
     border-radius: 100%;
 }
 .logo{
@@ -49,13 +52,13 @@ header{
     right: 0;
     width: 50px;
     height: 50px;
-    margin: .6em 1em 0em 1em;
+    margin: .8em 1.5em 0em 1em;
     border: 2px solid #000;
 }
 .profile:hover{
     border: 2px solid rgb(167, 167, 167);
 }
-a{
+.navbtn{
     display: inline-block;
     padding: .5em 2em;
     text-decoration: none;
@@ -64,17 +67,17 @@ a{
     text-align: center;
     color: #000;
 }
-a:hover{
+.navbtn:hover{
     border-bottom: 3px inset #000;
     color: rgb(89, 88, 88);
 }
-nav{
+.btn{
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
     margin: 0em -.5em 0em -.5em;
-    padding-right: .5em;
+    /* padding-right: .5em; */
     /* border-bottom: 1px solid #000;  */
     width: 100%;
     height: min-content;
@@ -83,18 +86,65 @@ nav{
     background-color: #fff;
  
 }
-main section div{
-    height: 600px;
-    width: 100%;
-    margin: 0em -.5em 0em -.5em;
-    padding-right: .5em;
+main{
     background-color: hsl(0, 1%, 21%);
 }
-footer div{
-    margin: 0em -.5em 0em -.5em;
+ul,section{
+    display: inline-block;
+}
+li{
+    margin: 1em 1em;
+}
+footer{
     width: 100%;
-    height: 200px;
-    padding-right: .5em;
+}
+footer div.contact,footer div.social{
+
+    width: 48%;
+    height: 220px;
+    padding:2em 0em 2em 2em;
     background-color: hsl(24, 6%, 83%);
     border: 1px solid #000;
+    font-size: 15px;
+}
+footer div.contact{
+    position:absolute;
+    left: 0;
+}
+footer div.social{
+    position:absolute;
+    right: 0;
+}
+
+
+
+.b
+{
+    display: inline-block;
+    text-decoration: none;
+    border:  solid 2px #202020;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px 36px;
+    background-color: #FFFFFF;
+    color: #202020;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    width: min-content;
+    min-width: 150px;
+}
+.b:hover
+{
+    padding: 9px 35px;
+    border:  solid 3px #1c1d1c;
+}
+.b:active
+{
+    border:  solid 2px #8b8d8d;
+    padding: 10px 36px;
+    color: #8b8d8d;
+}
+h1,h2
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
