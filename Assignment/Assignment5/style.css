@@ -88,13 +88,13 @@ main section div{
     width: 100%;
     margin: 0em -.5em 0em -.5em;
     padding-right: .5em;
-    background-color: bisque;
+    background-color: hsl(0, 1%, 21%);
 }
 footer div{
     margin: 0em -.5em 0em -.5em;
     width: 100%;
     height: 200px;
     padding-right: .5em;
-    background-color: aquamarine;
+    background-color: hsl(24, 6%, 83%);
     border: 1px solid #000;
 }
