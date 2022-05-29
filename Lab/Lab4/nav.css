@@ -13,8 +13,8 @@ html{
     font-family: 'aileronblack';
 }
 .nav{
-    margin: 0em -.5em 2em -.5em;
-    padding-bottom: .5em;
+    margin: 0em -.5em 0em -.5em;
+
     position: absolute;
     width: min-content;
     min-width: 100%;
@@ -22,7 +22,7 @@ html{
     min-height: 30px;
     top:0;
     box-shadow: 0px 2px 10px hsl(240deg 3% 88% / 0.7);
-    padding-bottom: 1em;
+
            
 }
 .logo{
@@ -77,16 +77,14 @@ html{
 .btn{
     text-decoration: none;
     color: hsl(223,7%,63%);
-    margin-bottom: -2em;
     font-size: 17px;
     width: 100px;
-    padding: 1.4em 1em 1em 1em;
-   justify-content: center;
+    padding: 1.5em 0em 1em 0em;
+    text-align: center;
+    margin-bottom: -.5em;
     
 }
-a{
-    justify-content: center;
-}
+
 .btn:hover{
     color: hsl(218,8%,38%);
     border-bottom: 3px solid hsl(239,84%,67%);
@@ -126,5 +124,5 @@ input[type="text"]{
     display: inline-block;
     border: 1px solid hsl(219,11%,69%);
     border-radius: 7px;
-    margin:1.2em 1em .1em 1em;
+    margin:1em 1em 1em 1em;
 }
