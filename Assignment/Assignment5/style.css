@@ -23,11 +23,11 @@ body{
 .brand{
     border-bottom: 3px solid #000; 
     height: 70px;
-    margin: -.5em 0em .6em 0em;
+    margin: -.5em 0em 0em 0em;
 }
 header{
     border: 1px solid rgb(189, 189, 189);
-    margin: -.5em 0em 0em -.5em;
+    margin: -.5em 0em 0em 0em;
     height: 63px;
     width: 100%;
     background-color: hsl(24, 6%, 83%);
@@ -76,9 +76,6 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    margin: 0em -.5em 0em -.5em;
-    /* padding-right: .5em; */
-    /* border-bottom: 1px solid #000;  */
     width: 100%;
     height: min-content;
     min-height: 39px;
@@ -92,20 +89,30 @@ main{
 ul,section{
     display: inline-block;
 }
+ul
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 3em;
+}
 li{
     margin: 1em 1em;
+
 }
 footer{
-    width: 100%;
+    margin: auto;
 }
 footer div.contact,footer div.social{
-
-    width: 48%;
+    width: 50%;
     height: 220px;
     padding:2em 0em 2em 2em;
     background-color: hsl(24, 6%, 83%);
     border: 1px solid #000;
     font-size: 15px;
+    margin: 0em -.5em 0em .5em;
 }
 footer div.contact{
     position:absolute;
