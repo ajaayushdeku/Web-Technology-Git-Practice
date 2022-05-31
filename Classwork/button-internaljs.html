@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal JS</title>
+</head>
+<body>
+    <button id="btn1">Click Me</button>
+    <button id="btn2">Hover</button>
+    <script>
+        // const btn1 =document.getElementById('btn1');
+        const btn1 =document.querySelector('#btn1');
+        btn1.addEventListener('click',function()
+        {
+            alert('Clicking');
+        })
+        // const btn2 =document.getElementById('btn2');
+        const btn2 =document.querySelector('#btn2');
+        btn2.addEventListener('mouseover',function(){
+            alert('Hovering');
+        })
+    </script>
+</body>
+</html>

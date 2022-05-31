@@ -92,7 +92,11 @@ a{
 }
 
 
-
+.main{
+margin: 1em;
+width: 500px;
+height: 500px;
+}
 input{
     color: hsl(219,11%,69%);
     border: none;
@@ -105,6 +109,7 @@ input[type="text"]{
 }
 
 #join{
+    display: inline;
     position: absolute;
     right: 3px;
     bottom: 3px;
@@ -112,9 +117,7 @@ input[type="text"]{
     border-radius: 7px;
     background-color: hsl(217,91%,60%);
     color: #FFF;
-    padding: .85em 1.2em;
-
-
+    padding: .85rem 1.2rem;
 }
 #ej{
     display: inline-block;
