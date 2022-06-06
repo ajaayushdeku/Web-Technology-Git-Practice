@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do While Loop</title>
+    <title>While Loop</title>
 </head>
 <body>
     <script>
-        let num=[1,2,3,4,5];
+        let num=[];
         let i=0;
-        let n=0;
-        do {
-            n+=num[i];
-            console.log(n);
-            i++;
-        } while (i<=5);
+        while(i<5)
+        {
+                num[i]=prompt(`Enter Number : `);
+                console.log(num[i]);
+                i++;
+        }
 
     </script>
 </body>
