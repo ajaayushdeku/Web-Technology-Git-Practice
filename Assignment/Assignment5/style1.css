@@ -8,7 +8,6 @@
          url('Aileron-Black-webfont.svg#aileronblack') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 body{
     font-family: 'aileronblack';
@@ -156,15 +155,20 @@ main section.category h1,main section h1{
 .programming-nerd img,.programming-nerd video,
 .gaming-nerd img,.gaming-nerd video,
 .book-nerd img,.book-nerd video{
-    /* padding: 3em; */
     position: relative;
     top: 0;
     right: 0;
     bottom: 0; 
-    /* border: 1px solid #000; */
     border-radius: 6px;
     margin: .5em;
     box-shadow: 0px 2px 10px rgba(50, 50, 52, 0.7);
+    z-index: 3;
+}
+.programming-nerd img:hover,.programming-nerd video:hover,
+.gaming-nerd img:hover,.gaming-nerd video:hover,
+.book-nerd img:hover,.book-nerd video:hover{
+    transform: scale(1.2);
+    z-index: 5;
 }
 .programming-nerd img,.gaming-nerd img,.book-nerd img{
     width: 300px;

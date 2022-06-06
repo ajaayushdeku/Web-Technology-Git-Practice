@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Odd</title>
+</head>
+<body>
+    <div id ="number"></div>
+    <script>
+        const element = document.getElementById(number);
+
+        function display(a,b){
+               let tag =document.createElement("p");
+               let text = document.createTextNode(`${d} is ${b}.`)
+               tag.appendChild(text);
+               number.appendChild(tag)
+            
+              console.log(`${a} is ${b}.`)
+        }
+      
+      for(d=1;d<=50;d++)
+      {
+       
+     
+          if(d%2===0){
+            display(d,'even')
+          }
+          else{
+            display(d,'odd')
+          }
+      }
+    </script>
+</body>
+</html>
