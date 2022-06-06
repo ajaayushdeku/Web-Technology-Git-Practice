@@ -10,12 +10,13 @@
     <script>
         let num=[1,2,3,4,5];
         let i=0;
+        let j=0;
         let n=0;
         do {
-            n+=num[i];
-            console.log(n);
+            num[j]*=num[i];
+            console.log(num[j])
             i++;
-        } while (i<=5);
+        } while (i<5);
 
     </script>
 </body>
