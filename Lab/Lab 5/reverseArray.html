@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompt Array</title>
+    <title>Reverse Array</title>
 </head>
 <body>
+
     <script>
-        let namelist=[];
-        for(let i=0;i<5;i++)
+        let data=["a","b","c","d","e"];
+        let revsere="";
+        for(let i=data.length-1;i>=0;i--)
         {
-            namelist[i]=prompt('What is your name');
+            revsere+=data[i];
         }
-        for(let j=0;j<5;j++)
-        {
-            console.log(`Name : ${namelist[j]}`);
-        }
-    </script>x
+        console.log(revsere);
+    </script>
 </body>
 </html>

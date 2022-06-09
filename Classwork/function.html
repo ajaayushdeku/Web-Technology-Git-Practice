@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        //return parameter
+        function isEligibleToVoteWithParameter(age)
+        {
+            return((age<18)? false:true);
+        }
+
+        //return without parameter
+
+        //no return withf parameter
+
+        //no return withour parameter
+
+
+        if(isEligibleToVoteWithParameter())
+        {
+            console.log("Eligible to Vote. ")
+        }
+        else
+        {
+            console.log("Not Eligible to Vote. ")
+        }
+
+
+        //Anogonous Function
+        let sum = function ()
+        {
+            console.log(5+2);
+        }
+
+        sum();
+
+        //Arrow Function
+        let diff = () =>
+        {
+            console.log(5-2);
+        }
+        let dif = () => console.log(5-2);//one line
+
+        dif();
+        diff();
+    </script>
+</body>
+</html>
