@@ -7,26 +7,36 @@
     <title>Drag and Drop</title>
     <style>
         .box{
-            width:50px;
-            height: 20px;
-            background-color: aquamarine;
-            padding: 1em;
+            position: absolute;
+            display: inline-block;
+            background-color: rgb(148, 148, 148);
+            padding: 1em 2em;
             border: 1px solid #000;
             border-radius: 6px;
+            height: 20px;
         }
         .bg{
-            display: flex;
-            width: 100%;
-            height: 1000px;
+            position: relative;
+        }
+        #ringer2{
+            top : 0;
+            bottom: 0;
+            
+        }
+        #rose{
+            top : 0;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <!-- <h1>Drag and Drop Boxes</h1> -->
 
-        <div id="ringer1" class="box" draggable="true">Ringer1</div>
-        <div id="ringer2" class="box" draggable="true">Ringer2</div>
-        <div id="rose" class="box" draggable="true">Rose</div>
+<div class="bg">
+    <div id="ringer1" class="box" draggable="true">Ringer1</div>
+    <div id="ringer2" class="box" draggable="true">Ringer2</div>
+    <div id="rose" class="box" draggable="true">Rose</div>
+    <div></div>
+</div>
 
 
     <script>
@@ -35,8 +45,8 @@
         let rose =document.getElementById("rose");
         
 
-        function drag1(e) {
-            ring1.style.transform = `translate(${e.clientX - 20}px, ${e.clientY - 20}px)`;
+        function drag1(event) {
+            ring1.style.transform = `translate(${event.clientX - 20}px, ${event.clientY - 20}px)`;
         }
         ring1.addEventListener("mousedown", () =>
             document.addEventListener("mousemove", drag1)
@@ -45,7 +55,41 @@
             document.removeEventListener("mousemove", drag1)
         );
 
-        
+        function drag2(event) {
+            ring2.style.transform = `translate(${event.clientX - 20}px, ${event.clientY - 20}px)`;
+        }
+        ring2.addEventListener("mousedown", () =>
+            document.addEventListener("mousemove", drag2)
+        );
+        ring2.addEventListener("mouseup", () =>
+            document.removeEventListener("mousemove", drag2)
+        );
+
+        function drag3(event) {
+            rose.style.transform = `translate(${event.clientX - 20}px, ${event.clientY - 20}px)`;
+        }
+        rose.addEventListener("mousedown", () =>
+            document.addEventListener("mousemove", drag3)
+        );
+        rose.addEventListener("mouseup", () =>
+            document.removeEventListener("mousemove", drag3)
+        );
+
+        // const boxElement = document.querySelectorAll(".box");
+        // for (el  of boxElement) {
+        //     function drag(e)
+        //     {
+        //         e.target.style.transform = `translate(${e.clientX - 20}px, ${e.clientY - 20}px)`;
+        //     }
+            
+        //      el.addEventListener("mousedown", () =>
+        //         document.addEventListener("mousemove", drag)
+        //      );
+
+        //      el.addEventListener("mouseup", () =>
+        //         document.removeEventListener("mousemove", drag)
+        //      );
+        // }
 
     </script>
 </body>
