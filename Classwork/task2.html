@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let gces name
+        // afliated to = performance
+        // address
+        // no . of sutucent
+        // principle
+        // staff
+        let gces = {
+            name : "Gandaki College of Engineering and Science",
+            address : {
+                streetName : "Lamachaur", 
+                city : "Pokhara",
+                district : "Kaski",
+                state :  "Gandaki",
+                country : "Nepal"
+            },
+            affiliatedTo : "Pokhara University",
+            // collegePrincipal : {
+            //     name : "Binendra Bhadka",
+            //     address : "Lamachaur",
+            //     position : "Principal",
+            //     phone : "985601111",
+            // },
+            // collegeVicePrincipal : {
+            //     name : "Ashok Raj Parajoli",
+            //     address : "Chipledhunga",
+            //     position : "Vixe Principal",
+            //     phone : "9856022222",
+            // },
+            staff : [
+                {
+                    name : "Binendra Bhadka",
+                    address : "Lamachaur",
+                    position : "Principal",
+                    phone : "985601111"
+                },
+                {
+                    name : "Ashok Raj Parajoli",
+                    address : "Chipledhunga",
+                    position : "Vixe Principal",
+                    phone : "9856022222"
+                },
+            ],
+
+            noOfStaff()
+            {
+                return this.staff.length;
+            }
+
+        }
+        for(let i=0;i<=2;i++)
+        {
+            if(i==0)
+            console.log(gces.staff[i].name + ", " + gces.staff[i].address + ", " + gces.staff[i].position + ", " + gces.staff[i].phone);
+        }
+
+        let principalArray = gces.staff.filter(function(staff)
+        {
+            return staff.position=="Principal"
+        });
+        console.log("Principal's Name = " + principalArray[0].name);
+
+        console.log(gces.staff.find((staff) => staff.position == "Principal").name);
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: relative;
+        }
+        .box{
+            position: absolute;
+        }
+        #red {
+
+            display: inline-block;
+            padding: 15em 10em;
+            background-color: red;
+
+        }
+        #yellow {
+            top: 50px;
+            left: 50px;
+            display: inline-block;
+            padding: 15em 10em;
+            background-color: yellow;
+        }
+        #green {
+            left: 100px;
+			top: 100px;
+            display: inline-block;
+            padding: 15em 10em;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="red" class="box"></p>
+        <p id="yellow" class="box"></p>
+        <p id="green" class="box"></p>
+    </div>
+    <script>
+	const box1El = document.getElementById("red");
+	const box2El = document.getElementById("yellow");
+	const box3El = document.getElementById("green");
+	box1El.addEventListener("click", function () {
+		box1El.style.zIndex = 10;
+		box2El.style.zIndex = 0;
+		box3El.style.zIndex = 0;
+	});
+
+	box2El.addEventListener("click", function () {
+		box2El.style.zIndex = 10;
+		box1El.style.zIndex = 0;
+		box3El.style.zIndex = 0;
+	});
+
+	box3El.addEventListener("click", function () {
+		box3El.style.zIndex = 10;
+		box1El.style.zIndex = 0;
+		box2El.style.zIndex = 0;
+	})
+    </script>
+</body>
+</html>

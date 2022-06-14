@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility</title>
+    <style>
+                div{
+            position: relative;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+        .blue {
+
+            background-color: blue;
+        }
+        .pink {
+            background-color: pink;
+        }
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- opacity =0
+    display :none;
+    display :hidden; -->
+    <div>
+        <p class="red box"></p>
+        <p class="green box"></p>
+        <p class="blue box"></p>
+        <p class="pink box"></p>
+        <p class="yellow box"></p>
+    </div>
+    <script>
+        const boxElement = document.querySelectorAll(".box");
+        for (el  of boxElement) {
+            el.addEventListener("click",function(event)
+            {
+                event.target.style.visibility = "hidden";
+                // event.target.style.display = "none";
+            })
+        }
+
+    </script>
+</body>
+</html>
