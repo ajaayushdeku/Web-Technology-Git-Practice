@@ -73,11 +73,10 @@
             document.removeEventListener("mousemove", drag3)
         );
 
-
-        
-
         // const boxElement = document.querySelectorAll(".box");
         // for (el  of boxElement) {
+
+        
         //     function drag(e)
         //     {
         //         e.target.style.transform = `translate(${e.clientX - 20}px, ${e.clientY - 20}px)`;
@@ -90,9 +89,30 @@
         //      el.addEventListener("mouseup", () =>
         //         document.removeEventListener("mousemove", drag)
         //      );
-        // }
+        // 
 
+        const spanElement =document.querySelectorAll("span");
+        for(el of spanElement)
+        {
+            el.addEventListener("mousedown",drag)
+        }
+        function drag(event)
+        {
+            element = 
+            document.target.addEventListener("mousemove", move);
+            document.target.addEventListener("mouseup", droper  )
+        }
 
+        function move(event)
+        {
+            event.target.style.left = event.clientX + "px";
+            event.target.style.top = event.clientY + "px";
+        }
+        function droper(event)
+        {
+            document.removeEventListener("mousemove", move ,true);
+            document.removeEventListener("mouseup", droper ,true);
+        }
     </script>
 </body>
 </html>
