@@ -22,3 +22,29 @@
 ### "127.0.0.1   helloworld.local
 ###  127.0.0.1   second.local"
 ### here we are giving the domain name the same IP addresses.
+---
+## C: -> Windows -> System32 -> drivers -> etc -> host file
+
+---
+
+## Setup Virtual Host
+### Step 1 : Go to the place where the XAMPP is install i.e 'Drive C' and then there will a folder name 'XAMPP', open it.
+### Step 2 : In 'XAMPP' folder, there will be a folder name 'apache' , open it.
+### Step 3 : Then open 'conf' folder that is inside tha 'apache' folder.
+### Step 4 : Then there will be folder name 'extra' inside 'conf', open it and you will see various files, the one we are looking for is 'httpd-vhosts.conf' file.
+### Step 5 : Open the file and this is where we provide domain url to the local system. For that change the DocumentRoot with root of the file/folder that is being host. This files/folders are loacted inside the 'htdocs' folder of the XAMPP. Similarly, change the ServerName to a desired domain url through which the files are being accessed.
+### For Example :
+
+ <VirtualHost *:80>
+    DocumentRoot "C:\xampp\htdocs\wt-git-practice\Assignment\Assignment7\helloworld"
+    ServerName helloworld.local
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "C:\xampp\htdocs\wt-git-practice\Assignment\Assignment7\second"
+    ServerName second.local
+</VirtualHost>`
+
+--- 
+
+## C: -> XAMPP -> apache -> conf -> extra -> httpd-vhosts.conf file.
