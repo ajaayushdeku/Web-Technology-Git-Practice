@@ -5,6 +5,7 @@
 ### [Assignment 4](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment4)
 ### [Assignment 5](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment5)
 ### [Assignment 6](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment6)
+### [Assignment 7](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment7)
 
 ***
 ## Labs :
