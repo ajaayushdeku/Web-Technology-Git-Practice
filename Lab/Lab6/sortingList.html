@@ -1,91 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sorting List</title>
-  <style>
-    .item-container
-    {
-      height: 50px;
-      width: 30%;
-      border-radius: 6px;
-      border: 1px solid hsl(60,1%,86%);
-      background-color: rgb(124, 124, 124);
-      margin: 1em;
-    }
-
-    .item{
-      display: inline-block;
-      margin: 1em;
-      
-    }
-    img{
-      width: 10px;
-      height: 20px;
-      margin: 1em;
-    
-    }
-    .float-left{
-      float: left;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting List</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            /* background-color: #000; */
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        .draggable{
+            padding: 1rem;
+            background-color: rgb(193, 193, 193);
+            border:  1px solid black;
+            cursor: move;
+            border-radius: 6px;
+        }
+        .dragging{
+            opacity: .5;
+        }
+        .sortimg{
+            height: inherit;
+            width: 10px;
+            margin-right: 1em;
+        }
+        .float-left{
+            float: left;
+        }
+    </style>
 </head>
 <body>
-  <div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 1</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 2</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 3</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 4</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 5</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 6</div>
-    </div>
-    <div class="item-container">
-      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
-      <div class="item">Item 7</div>
-    </div>
-  </div>
-
-
-
-  <script>
-    const rect = document.getElementById('rect');
-    const resize = document.getElementById('sort');
-    
-    resize.addEventListener('mousedown', startResize, false);
-
-    function startResize(e) {
-        document.addEventListener('mousemove', Resize, false);
-        document.addEventListener('mouseup', stopResize, false);
-    }
-    
-    function Resize(e) {
-        rect.style.width = (e.clientX - rect.offsetLeft) + 'px';
-        rect.style.height = (e.clientY - rect.offsetTop) + 'px';
-    }
-    
-    function stopResize(e) {
-        document.removeEventListener('mousemove', Resize, false);
-        document.removeEventListener('mouseup', stopResize, false);
-    }
-  </script>
+    <div class="container">
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 1
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 2
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 3
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 4
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 5
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 6
+        </div>
+        <div class="draggable" draggable="true">
+            <img src="./img/drag-arrow.png" alt="" class="sortimg float-left">
+            Item 7
+        </div>
+    </div>  
+    <script>
+        const draggables = document.querySelectorAll('.draggable')
+        const containers = document.querySelectorAll('.container')
+        
+        draggables.forEach(draggable => {
+            draggable.addEventListener('dragstart', () => {
+                draggable.classList.add('dragging')
+            })
+        
+            draggable.addEventListener('dragend', () => {
+                draggable.classList.remove('dragging')
+            })
+        })
+        
+        containers.forEach(container => {
+            container.addEventListener('dragover', e => {
+                e.preventDefault()
+                const afterElement = getDragAfterElement(container, e.clientY)
+                const dragitem = document.querySelector('.dragging')
+                if (afterElement == null) {
+                    container.appendChild(dragitem)
+                } else {
+                    container.insertBefore(dragitem, afterElement)
+                }
+            })
+        })
+        
+        function getDragAfterElement(container, y) {
+            const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
+            
+            return draggableElements.reduce((closest, child) => {
+                const box = child.getBoundingClientRect()
+                const offset = y - box.top - box.height / 2
+                if (offset < 0 && offset > closest.offset) {
+                    return { offset: offset, element: child }
+                } else {
+                    return closest
+                }
+            }, { offset: Number.NEGATIVE_INFINITY }).element
+        }
+    </script>
 </body>
 </html>
