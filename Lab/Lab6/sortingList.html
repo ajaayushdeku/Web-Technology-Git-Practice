@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorting List</title>
+  <style>
+    .item-container
+    {
+      height: 50px;
+      width: 30%;
+      border-radius: 6px;
+      border: 1px solid hsl(60,1%,86%);
+      background-color: rgb(124, 124, 124);
+      margin: 1em;
+    }
+
+    .item{
+      display: inline-block;
+      margin: 1em;
+      
+    }
+    img{
+      width: 10px;
+      height: 20px;
+      margin: 1em;
+    
+    }
+    .float-left{
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 1</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 2</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 3</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 4</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 5</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 6</div>
+    </div>
+    <div class="item-container">
+      <img src="./img/drag-arrow.png" alt="" class="sort float-left">
+      <div class="item">Item 7</div>
+    </div>
+  </div>
+
+
+
+  <script>
+    const rect = document.getElementById('rect');
+    const resize = document.getElementById('sort');
+    
+    resize.addEventListener('mousedown', startResize, false);
+
+    function startResize(e) {
+        document.addEventListener('mousemove', Resize, false);
+        document.addEventListener('mouseup', stopResize, false);
+    }
+    
+    function Resize(e) {
+        rect.style.width = (e.clientX - rect.offsetLeft) + 'px';
+        rect.style.height = (e.clientY - rect.offsetTop) + 'px';
+    }
+    
+    function stopResize(e) {
+        document.removeEventListener('mousemove', Resize, false);
+        document.removeEventListener('mouseup', stopResize, false);
+    }
+  </script>
+</body>
+</html>

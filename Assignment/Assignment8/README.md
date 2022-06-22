@@ -7,7 +7,7 @@
 ---
 ### 1. sort()
 #### -> sort() function is used for sorting indexed arrays. It is used for sorting the elements of the indexed arrary in ascending order.
-### Synatx:
+### Syntax:
 `sort($variable);`
 ### Example :
 ```PHP
@@ -20,20 +20,20 @@ echo($even);
 ---
 ### 2. rsort()
 #### -> rsort() function is also used for sorting indexed arrays. It is used for sorting the elements of the indexed arrary in descending order.
-### Synatx:
+### Syntax:
 `rsort($variable);`
 ### Example :
 ```PHP
 <?php
 $odd= array(11,35,57,71);
-sort($odd);
+rsort($odd);
 echo($odd);
 ?>
 ```
 ---
 ### 3. asort()
 #### -> asort() function is used for sorting associative arrays. It is used for sorting the elements of the associative arrary in ascending order according to the value. It works just like sort(), but it preserves the association between keys and its values while sorting.
-### Synatx:
+### Syntax:
 `asort($variable);`
 ### Example :
 ```PHP
@@ -46,7 +46,7 @@ echo($age);
 ---
 ### 4. arsort()
 #### -> arsort() function is also used for sorting associative arrays. It is used for sorting the elements of the associative arrary in descending order according to the value. It works just like rsort(), but it preserves the association between keys and its values while sorting.
-### Synatx:
+### Syntax:
 `arsort($variable);`
 ### Example :
 ```PHP
@@ -59,7 +59,7 @@ echo($rollno);
 ---
 ### 5. ksort()
 #### -> Similar to asort(), ksort() function is also used for sorting associative arrays. But it is used for sorting the elements of the associative arrary in ascending order according to the key. It preserves the association between keys and its values while sorting, same as asort() function.
-### Synatx:
+### Syntax:
 `ksort($variable);`
 ### Example :
 ```PHP
@@ -72,7 +72,7 @@ echo($height);
 ---
 ### 6. krsort()
 #### -> Similar to arsort(), krsort() function is also used for sorting associative arrays. But it is used for sorting the elements of the associative arrary in descending order according to the key. It preserves the association between keys and its values while sorting, same as arsort() function.
-### Synatx:
+### Syntax:
 `krsort($variable);`
 ### Example :
 ```PHP
