@@ -7,6 +7,7 @@
 | [Assignment 6](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment6) |
 | [Assignment 7](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment7) |
 | [Assignment 8](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment8) |
+| [Assignment 9](https://github.com/ajaayushdeku/wt-lab-assignment/tree/master/Assignment/Assignment9) |
 
 ***
 ## Labs :
