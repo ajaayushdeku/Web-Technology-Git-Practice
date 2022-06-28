@@ -23,8 +23,8 @@ $gender = $_POST['gender'] ?? '';
 $hobbies = implode(",", $_POST['hobbies'] ?? []);
 $nationality = $_POST['nationality'] ?? 'NP';
 
-$sql = "INSERT INTO students (name, email, password, dob, favourite_color, weight, gender, hobbies, nationality)
-VALUES ('$name', '$email', '$password', '$dob', '$favourite_color', $weight, '$gender', '$hobbies', '$nationality')";
+$sql = "INSERT INTO students (name, email, password, dob, favourite_color, weight, gender, hobbies, nationality,profile)
+VALUES ('$name', '$email', '$password', '$dob', '$favourite_color', $weight, '$gender', '$hobbies', '$nationality','$folder')";
 
 if($conn->query($sql) == TRUE) {
 	header("location:../?success=inserted successfully");
