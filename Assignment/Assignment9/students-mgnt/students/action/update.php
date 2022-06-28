@@ -15,7 +15,7 @@ $gender=$_POST['gender'];
 $hobbies=implode(",",$_POST['hobbies']);
 $nationality=$_POST['nationality'];
 $sql="UPDATE students SET name='$name',email='$email', dob='$dob', favourite_color='$favourite_color', weight='$weight', gender='$gender', hobbies='$hobbies', nationality='$nationality' WHERE id=$id;";
-die($sql);
+// die($sql);
 if($conn->query($sql) == TRUE) {
 	header("location:../?success=updated successfully");
 } else {
