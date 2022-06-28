@@ -18,7 +18,7 @@
 	</div>
 	<div class="form-group">
 		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="ajaayushsth234@gmail.com" name="email">
+		<input type="email" id="email" placeholder="ajaayushgrg234@gmail.com" name="email">
 	</div>
 	<div class="form-group">
 		<label for="password">Password</label>
@@ -69,7 +69,7 @@
 		<input type="file" id="profile" accept="image/png,image/jpeg" name="profile" />
 	</div>
 	<div class="form-group">
-		<input type="submit" value="Create" />
+		<input type="submit" value="Create" name="save"/>
 		<input type="reset" value="Cancel" />
 	</div>
 </form>

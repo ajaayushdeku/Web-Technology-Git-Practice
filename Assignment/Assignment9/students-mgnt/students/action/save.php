@@ -1,6 +1,17 @@
 <?php 
 
 require_once "../../utils/db.php";
+if (isset($_POST['save'])) {
+ 
+    $filename = $_FILES["profile"]["name"];
+    $tempname = $_FILES["profile"]["tmp_name"];
+    $folder = "../image/" . $filename;
+
+	if (move_uploaded_file($tempname, $folder)) {
+        echo "<h3>  Image uploaded successfully!</h3>";
+    } else {
+        echo "<h3>  Failed to upload image!</h3>";
+    }
 
 $name = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
@@ -19,5 +30,6 @@ if($conn->query($sql) == TRUE) {
 	header("location:../?success=inserted successfully");
 } else {
 	header("location:../?error=error occured");
+}
 }
 ?>

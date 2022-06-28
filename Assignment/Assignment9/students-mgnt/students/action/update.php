@@ -1,5 +1,4 @@
 <?php
-
 require_once "../../utils/db.php";
 // if (!isset($_POST['id'])) {
 // 	header("location:../?error=invalid id");
