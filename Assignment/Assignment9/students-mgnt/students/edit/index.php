@@ -32,7 +32,9 @@ $student = $result->fetch_assoc();
 	</style>
 </head>
 <body>
+
 <form method="POST" action="../action/update.php" enctype="multipart/form-data">
+    <input type="hidden" name="id" value="<?= $student['id'] ?>">
 	<div class="form-group">
 		<label for="name">Name</label>
 		<input type="text" id="name" placeholder="Aayush Shrestha" name="name" value="<?= $student['name'] ?>">
