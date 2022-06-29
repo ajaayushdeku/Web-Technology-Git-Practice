@@ -35,6 +35,10 @@ $result = $conn->query($sql);
 			top: 2px;
 			right: 2px;
 		}
+		img{
+			height:40px;
+			weight:40px;
+		}
 
 	</style>
 </head>
@@ -75,7 +79,7 @@ $result = $conn->query($sql);
 	?>
 			<tr>
 				<td><?= $student['id'] ?></td>
-				<td><img src=""><?= $student['profile'] ?></td>
+				<td><img src="./image/<?php echo $student['profile']?>"></td>
 				<td><?= $student['name'] ?></td>
 				<td><?= $student['email'] ?></td>
 				<td><?= $student['dob'] ?></td>

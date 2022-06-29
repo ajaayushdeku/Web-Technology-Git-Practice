@@ -93,7 +93,7 @@ $student = $result->fetch_assoc();
 
 	<div class="form-group">
 		<label for="profile">Profile</label>
-		<input type="file" id="profile" accept="image/png,image/jpeg" name="profile" value="<?= $students['profile']; ?>" />
+		<input type="file" id="profile" accept="image/png,image/jpeg" name="profile" value="<?= $students['profile'] ?>" />
 	</div>
 	<div class="form-group">
 		<input type="submit" value="Update"  name="update"/>

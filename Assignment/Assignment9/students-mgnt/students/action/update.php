@@ -3,7 +3,7 @@ require_once "../../utils/db.php";
 // if (!isset($_POST['id'])) {
 // 	header("location:../?error=invalid id");
 // }
-if (isset($_POST['save'])) {
+if (isset($_POST['update'])) {
  
     $filename = $_FILES["profile"]["name"];
     $tempname = $_FILES["profile"]["tmp_name"];
