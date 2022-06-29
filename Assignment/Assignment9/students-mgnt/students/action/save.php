@@ -7,11 +7,7 @@ if (isset($_POST['save'])) {
     $tempname = $_FILES["profile"]["tmp_name"];
     $folder = "../image/" . $filename;
 
-	if (move_uploaded_file($tempname, $folder)) {
-        echo "<h3>  Image uploaded successfully!</h3>";
-    } else {
-        echo "<h3>  Failed to upload image!</h3>";
-    }
+
 
 $name = $_POST['name'] ?? '';
 $email = $_POST['email'] ?? '';
@@ -25,6 +21,15 @@ $nationality = $_POST['nationality'] ?? 'NP';
 
 $sql = "INSERT INTO students (name, email, password, dob, favourite_color, weight, gender, hobbies, nationality,profile)
 VALUES ('$name', '$email', '$password', '$dob', '$favourite_color', $weight, '$gender', '$hobbies', '$nationality','$filename')";
+// die($sql);
+
+mysqli_query($conn, $sql);
+    
+if (move_uploaded_file($tempname, $folder)) {
+    echo "<h3>  Image uploaded successfully!</h3>";
+} else {
+    echo "<h3>  Failed to upload image!</h3>";
+}
 
 if($conn->query($sql) == TRUE) {
 	header("location:../?success=inserted successfully");
